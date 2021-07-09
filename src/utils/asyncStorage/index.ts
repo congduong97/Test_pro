@@ -20,7 +20,7 @@ class asyncStorageInstance {
    * @return {promise - Array}
    */
 
-  async getMultip(args: string[]): Promise<Array<string | null>> {
+  async getMultiple(args: string[]): Promise<Array<string | null>> {
     return await Promise.all([...args.map(v => this.getOne(v))]);
   }
 
@@ -41,7 +41,7 @@ class asyncStorageInstance {
    * @return {promise - void}
    */
 
-  async setMultip(args: argsSet[]): Promise<void> {
+  async setMultiple(args: argsSet[]): Promise<void> {
     args.map(v => {
       AsyncStorage.setItem(v.key, v.value);
     });
@@ -51,7 +51,7 @@ class asyncStorageInstance {
     await AsyncStorage.removeItem(key);
   }
 
-  async removeMultip(args: string[]): Promise<void> {
+  async removeMultiple(args: string[]): Promise<void> {
     await AsyncStorage.multiRemove(args);
   }
 

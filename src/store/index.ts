@@ -1,7 +1,7 @@
-import {configureStore, getDefaultMiddleware} from '@reduxjs/toolkit';
+import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import reducers from '@store/reducers';
 import createSagaMiddleware from 'redux-saga';
-import {createInjectorsEnhancer} from 'redux-injectors';
+import { createInjectorsEnhancer } from 'redux-injectors';
 import rootSaga from '@store/sagas';
 export const store = configureStore({
   reducer: reducers,
@@ -10,7 +10,7 @@ export const store = configureStore({
 export function configureAppStore(initialState = {}) {
   const reduxSagaMonitorOptions = {};
   const sagaMiddleware = createSagaMiddleware(reduxSagaMonitorOptions);
-  const {run: runSaga} = sagaMiddleware;
+  const { run: runSaga } = sagaMiddleware;
 
   // sagaMiddleware: Makes redux-sagas work
   const middlewares = [sagaMiddleware];
