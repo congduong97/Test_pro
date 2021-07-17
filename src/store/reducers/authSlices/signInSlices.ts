@@ -1,19 +1,18 @@
-import {createSlice} from '@reduxjs/toolkit';
-import {initDefaultState, nameSlices} from '@constants/stateStore';
+import { createSlice } from '@reduxjs/toolkit';
 
 const signInSlice = createSlice({
-  name: nameSlices.signInSlice,
-  initialState: initDefaultState,
+  name: "signInSlice",
+  initialState: {},
   reducers: {
     requestSignIn: state => {
       state.fetching = true;
     },
-    requestSignInSuccess: (state, {payload}) => {
+    requestSignInSuccess: (state, { payload }) => {
       state.data = payload;
       state.fetching = false;
       state.errors = null;
     },
-    requestSignInFailure: (state, {payload}) => {
+    requestSignInFailure: (state, { payload }) => {
       state.data = null;
       state.fetching = false;
       state.errors = payload;
@@ -21,6 +20,6 @@ const signInSlice = createSlice({
   },
 });
 
-export const {requestSignIn, requestSignInFailure, requestSignInSuccess} =
+export const { requestSignIn, requestSignInFailure, requestSignInSuccess } =
   signInSlice.actions;
 export default signInSlice.reducer;

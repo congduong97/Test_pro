@@ -20,12 +20,11 @@
       "@router/*": ["router/*"],
       "@store/*": ["store/*"],
       "@hooks/*": ["hooks/*"],
-      "@constants/*": ["constants/*"],
-      "@screens/*": ["screens/*"],
-      "@utils/*": ["utils/*"],
       "@components/*": ["components/*"],
       "@helpers/*": ["helpers/*"],
-      "@common/*": ["common/*"]
+      "@share/*": ["share/*"],
+      "@services/*": ["services/*"],
+      "@features/*": ["features/*"]
     }
   },
   "exclude": [

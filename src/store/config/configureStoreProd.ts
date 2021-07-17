@@ -3,12 +3,13 @@ import { reducers } from '@store/reducers';
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import createSagaMiddleware, { END } from 'redux-saga';
 import { createInjectorsEnhancer } from 'redux-injectors';
+import Reactotron from '../../../ReactotronConfig';
 
+export default function configureStoreProd(initialState = {}) {
 
-export function configureStoreProd(initialState = {}) {
+	const sagaMonitor = Reactotron.createSagaMonitor()
 
-
-	const sagaMiddleware = createSagaMiddleware()
+	const sagaMiddleware = createSagaMiddleware({ sagaMonitor })
 
 	const { run: runSaga } = sagaMiddleware
 
@@ -36,3 +37,8 @@ export function configureStoreProd(initialState = {}) {
 	return store
 
 }
+
+
+const store = configureStoreProd()
+
+export default store

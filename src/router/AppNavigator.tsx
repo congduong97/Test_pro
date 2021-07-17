@@ -1,11 +1,11 @@
-import React, {useRef} from 'react';
-import {View, Text} from 'react-native';
+import React, { useRef } from 'react';
+import { View, Text } from 'react-native';
 import {
   NavigationContainer,
   NavigationContainerRef,
 } from '@react-navigation/native';
-import {RootNavigator} from '@router/RootNavigator';
-import {navigationRef} from '@router/navigationService';
+import { RootNavigator } from '@router/RootNavigator';
+import { navigationRef } from '@router/navigationService';
 export default function AppNavigator() {
   const routerNameRef = useRef();
   return (

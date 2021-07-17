@@ -4,22 +4,24 @@
  * @flow strict-local
  */
 
-import React, {Suspense} from 'react';
-import type {Node} from 'react';
-import {View} from 'react-native';
-import {SafeAreaProvider} from 'react-native-safe-area-context';
+import React, { Suspense } from 'react';
+import type { Node } from 'react';
+import { View } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import AppNavigator from '@router/AppNavigator';
-import {Provider} from 'react-redux';
-import {configureAppStore} from '@store/index';
-const store = configureAppStore();
+import { Provider } from 'react-redux';
+import store from '@store/index';
+import { NativeBaseProvider } from 'native-base';
 const App = () => {
   return (
     <SafeAreaProvider>
-      <Provider store={store}>
-        <Suspense fallback={<View />}>
-          <AppNavigator />
-        </Suspense>
-      </Provider>
+      <NativeBaseProvider>
+        <Provider store={store}>
+          <Suspense fallback={<View />}>
+            <AppNavigator />
+          </Suspense>
+        </Provider>
+      </NativeBaseProvider>
     </SafeAreaProvider>
   );
 };

@@ -1,12 +1,14 @@
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import createSagaMiddleware, { END } from 'redux-saga';
-import Reactotron from 'reactotron-react-native';
+import Reactotron from '../../../ReactotronConfig';
 import { createInjectorsEnhancer } from 'redux-injectors';
-import reducers from '../reducers';
-import rootSaga from '../sagas';
+import reducers from '@store/reducers';
+import rootSaga from '@store/sagas';
 
 export function configureStoreDev(initialState = {}) {
-	const sagaMonitor = Reactotron.createSagaMonitor();
+
+	const sagaMonitor = Reactotron.createSagaMonitor()
+
 	const sagaMiddleware = createSagaMiddleware({ sagaMonitor });
 
 	const { run: runSaga } = sagaMiddleware;
@@ -40,3 +42,6 @@ export function configureStoreDev(initialState = {}) {
 	return store;
 }
 
+const store = configureStoreDev()
+
+export default store

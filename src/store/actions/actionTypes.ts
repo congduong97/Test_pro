@@ -1,7 +1,7 @@
 export enum StatusTypes {
   REQUEST = 'REQUEST',
   FETCHING = 'FETCHING',
-  SUCESS = 'SUCCESS',
+  SUCCESS = 'SUCCESS',
   FAILURE = 'FAILURE',
   PENDING = 'PENDING',
 }
