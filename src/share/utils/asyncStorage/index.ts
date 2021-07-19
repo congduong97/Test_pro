@@ -10,7 +10,7 @@ class asyncStorageInstance {
     return new Promise((resolve, reject) => {
       AsyncStorage.getItem(key)
         .then(result => resolve(result))
-        .catch(err => reject(err));
+        .catch(err => null);
     });
   }
 

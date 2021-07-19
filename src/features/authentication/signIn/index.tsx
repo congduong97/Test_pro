@@ -2,10 +2,14 @@ import React from 'react';
 import { Button, Box, CloseIcon } from 'native-base';
 import { navigate } from '@router/navigationService';
 import { APP_SCREEN } from '@router/screenType';
-import InputFields from '@components/InputFields';
+import { TextLang, InputFields } from '@components';
 import { StyleSheet } from 'react-native';
 import { FormProvider, useForm } from 'react-hook-form';
 import { styles } from 'styled-system';
+import I18n, { TypeLanguage } from '@I18n';
+import { Text } from 'react-native-svg';
+import { AsyncStoreHelpers } from '@share/utils';
+import { KEY_LANGUAGE } from '../../../share';
 
 const style = StyleSheet.create({
   customS: {
@@ -15,6 +19,7 @@ const style = StyleSheet.create({
 
 export default function SignIn() {
   const formMethod = useForm();
+
   const onSubmit = (form: any) => {
     console.log(form);
   };
@@ -40,6 +45,33 @@ export default function SignIn() {
           Submit
         </Button>
       </FormProvider>
+      <TextLang tx="errors.email" />
+      <TextLang tx="Date_Format" txOptions={{ date: new Date() }} />
+      <Button
+        onPress={() => {
+          I18n.changeLanguage(TypeLanguage.VN);
+        }}>
+        vi
+      </Button>
+      <Button
+        onPress={async () => {
+          I18n.changeLanguage(TypeLanguage.ES);
+          await AsyncStoreHelpers.setOne(KEY_LANGUAGE, TypeLanguage.ES);
+        }}>
+        es
+      </Button>
+      <Button
+        onPress={() => {
+          I18n.changeLanguage(TypeLanguage.JP);
+        }}>
+        jp
+      </Button>
+      <Button
+        onPress={() => {
+          I18n.changeLanguage(TypeLanguage.TW);
+        }}>
+        tw
+      </Button>
     </Box>
   );
 }

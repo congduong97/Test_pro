@@ -11,7 +11,7 @@ import { FieldValues, IInputFields } from './IInputFields';
 import styles from './styles';
 import { useController, useFormContext } from 'react-hook-form';
 
-const InputFields = forwardRef((props: IInputFields, ref?: any) => {
+export const InputFields = forwardRef((props: IInputFields, ref?: any) => {
   // valid props
 
   if (!props.name) throw new Error('props name need to be provider!');
@@ -67,4 +67,3 @@ const InputFields = forwardRef((props: IInputFields, ref?: any) => {
     </View>
   );
 });
-export default InputFields;

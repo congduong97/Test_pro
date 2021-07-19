@@ -1,6 +1,8 @@
-import {combineReducers} from 'redux';
+import { combineReducers } from 'redux';
 
-import authSlices from '@store/reducers/authSlices';
+import unAuthorize from './unAuthorizeSlices';
+import globalApp from './global';
 export default combineReducers({
-  authSlices,
+  unAuthorize,
+  globalApp
 });
