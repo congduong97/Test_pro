@@ -1,0 +1,7 @@
+{
+	"errors": {
+		"email": "不合規電郵",
+		"password": "無效的密碼"
+	},
+	"Date_Format" : "{{date, DD-MM-YYYY}}"
+}

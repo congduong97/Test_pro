@@ -16,16 +16,20 @@
     "baseUrl": "src",
     "skipLibCheck": false,
     "paths": {
-      "@assets/*": ["assets/*"],
-      "@router/*": ["router/*"],
-      "@store/*": ["store/*"],
-      "@hooks/*": ["hooks/*"],
-      "@components/*": ["components/*"],
-      "@helpers/*": ["helpers/*"],
-      "@share/*": ["share/*"],
-      "@services/*": ["services/*"],
-      "@features/*": ["features/*"]
-    }
+      "@assets": ["assets/*"],
+      "@router": ["router/*"],
+      "@store": ["store/*"],
+      "@hooks": ["hooks/*"],
+      "@components": ["components/index"],
+      "@helpers": ["helpers/*"],
+      "@services": ["services/*"],
+      "@features": ["features/*"],
+      "@I18n": ["i18n/index"],
+      "@share/utils": ["share/utils"],
+      "@share/themes": ["share/themes"],
+      "@share/constants": ["share/constants"]
+    },
+    "typeRoots": ["./node_modules/@types"]
   },
   "exclude": [
     "node_modules",

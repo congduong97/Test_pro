@@ -1,0 +1,7 @@
+{
+	"errors": {
+		"email": "Email is valid!",
+		"password": "Password is valid!"
+	},
+	"Date_Format": "{{date, DD-MM-YYYY}}"
+}

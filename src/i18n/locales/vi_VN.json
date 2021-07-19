@@ -1,0 +1,7 @@
+{
+	"errors": {
+		"email": "Email không hợp lệ!",
+		"password": "Password không hợp lệ!"
+	},
+	"Date_Format" : "{{date, DD-MM-YYYY}}"
+}

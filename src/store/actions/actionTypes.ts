@@ -19,4 +19,5 @@ export interface propsAction {
 
 export enum ActionName {
   SIGN_IN = '@SIGN_IN',
+  GLOBAL_APP = '@GLOBAL_APP'
 }

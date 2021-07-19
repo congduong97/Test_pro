@@ -1,0 +1,1 @@
+export const KEY_LANGUAGE = 'KEY_I18N_LANGUAGE';
