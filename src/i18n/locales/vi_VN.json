@@ -3,5 +3,9 @@
 		"email": "Email không hợp lệ!",
 		"password": "Password không hợp lệ!"
 	},
-	"Date_Format" : "{{date, DD-MM-YYYY}}"
+	"Date_Format": "{{date, DD-MM-YYYY}}",
+	"label": {
+		"username": "Tên tài khoản",
+		"password": "Mật khẩu"
+	}
 }

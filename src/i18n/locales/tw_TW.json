@@ -3,5 +3,9 @@
 		"email": "不合規電郵",
 		"password": "無效的密碼"
 	},
-	"Date_Format" : "{{date, DD-MM-YYYY}}"
+	"Date_Format": "{{date, DD-MM-YYYY}}",
+	"label": {
+		"username": "帐户名称",
+		"password": "密码"
+	}
 }

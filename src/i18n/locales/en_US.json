@@ -3,5 +3,9 @@
 		"email": "Email is valid!",
 		"password": "Password is valid!"
 	},
-	"Date_Format": "{{date, DD-MM-YYYY}}"
+	"Date_Format": "{{date, DD-MM-YYYY}}",
+	"label": {
+		"username": "Username",
+		"password": "Password"
+	}
 }
