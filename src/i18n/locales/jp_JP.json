@@ -3,5 +3,9 @@
 		"email": "無効なメール",
 		"password": "無効なパスワード"
 	},
-	"Date_Format": "{{date, DD-MM-YYYY}}"
+	"Date_Format": "{{date, DD-MM-YYYY}}",
+	"label": {
+		"username": "アカウント名",
+		"password" : "パスワード"
+	}
 }

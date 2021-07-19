@@ -10,6 +10,7 @@ import {
 import { FieldValues, IInputFields } from './IInputFields';
 import styles from './styles';
 import { useController, useFormContext } from 'react-hook-form';
+import { TextLang } from '../TextLang';
 
 export const InputFields = forwardRef((props: IInputFields, ref?: any) => {
   // valid props
@@ -46,7 +47,7 @@ export const InputFields = forwardRef((props: IInputFields, ref?: any) => {
   });
   return (
     <View style={container}>
-      {props.label ? <Text style={label}>{props.label}</Text> : null}
+      {props.label ? <TextLang tx={props.label} style={label} /> : null}
       <View style={styles.viewInput}>
         <TextInput
           ref={ref}

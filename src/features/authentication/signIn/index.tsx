@@ -8,7 +8,7 @@ import { FormProvider, useForm } from 'react-hook-form';
 import { styles } from 'styled-system';
 import I18n, { TypeLanguage } from '@I18n';
 import { Text } from 'react-native-svg';
-import { AsyncStoreHelpers } from '@share/utils';
+import { AsyncStoreHelpers, translate } from '@share/utils';
 import { KEY_LANGUAGE } from '../../../share';
 
 const style = StyleSheet.create({
@@ -31,14 +31,14 @@ export default function SignIn() {
       <FormProvider {...formMethod}>
         <InputFields
           name="username"
-          label="username"
-          placeholder="username"
+          label="label.username"
+          placeholder={translate('label.username')}
           rules={{ required: 'username is required!' }}
         />
         <InputFields
           name="password"
-          label="password"
-          placeholder="password"
+          label="label.password"
+          placeholder={translate('label.password')}
           rules={{ required: 'password is required!' }}
         />
         <Button onPress={formMethod.handleSubmit(onSubmit, onErrors)}>

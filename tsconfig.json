@@ -21,7 +21,6 @@
       "@store": ["store/*"],
       "@hooks": ["hooks/*"],
       "@components": ["components/index"],
-      "@helpers": ["helpers/*"],
       "@services": ["services/*"],
       "@features": ["features/*"],
       "@I18n": ["i18n/index"],
