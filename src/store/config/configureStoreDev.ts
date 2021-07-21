@@ -1,11 +1,12 @@
-import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
+import { configureStore, getDefaultMiddleware, PreloadedState } from '@reduxjs/toolkit';
 import createSagaMiddleware, { END } from 'redux-saga';
 import Reactotron from '../../../ReactotronConfig';
 import { createInjectorsEnhancer } from 'redux-injectors';
-import reducers from '@store/reducers';
-import rootSaga from '@store/sagas';
+import rootReducers from '../reducers';
+import rootSaga from '../sagas';
+import { fakeApi } from '@services'
 
-export function configureStoreDev(initialState = {}) {
+export function configureStoreDev(initialState?: PreloadedState<RootState>) {
 
 	const sagaMonitor = Reactotron.createSagaMonitor()
 
@@ -14,18 +15,18 @@ export function configureStoreDev(initialState = {}) {
 	const { run: runSaga } = sagaMiddleware;
 
 	// sagaMiddleware : Makes redux-sagas work
-	const middlewares = [sagaMiddleware];
+	const middlewares = [sagaMiddleware, fakeApi.middleware];
 
 	const enhancers = [
 		createInjectorsEnhancer({
-			createReducer: reducers,
+			createReducer: rootReducers,
 			runSaga
 		})
 	]
 
 	// create store
 	const store = configureStore({
-		reducer: reducers,
+		reducer: rootReducers,
 		middleware: [...getDefaultMiddleware(), ...middlewares],
 		preloadedState: initialState,
 		devTools: process.env.NODE_ENV !== 'production',
@@ -42,6 +43,11 @@ export function configureStoreDev(initialState = {}) {
 	return store;
 }
 
-const store = configureStoreDev()
 
-export default store
+export type RootState = ReturnType<typeof rootReducers>;
+
+export type AppStore = ReturnType<typeof configureStore>;
+
+export type AppDispatch = AppStore['dispatch']
+
+export const storeDev = configureStoreDev();

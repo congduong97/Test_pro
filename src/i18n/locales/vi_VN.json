@@ -7,5 +7,8 @@
 	"label": {
 		"username": "Tên tài khoản",
 		"password": "Mật khẩu"
+	},
+	"text": {
+		"submit": "Xác nhận"
 	}
 }

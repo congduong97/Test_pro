@@ -6,6 +6,9 @@
 	"Date_Format": "{{date, DD-MM-YYYY}}",
 	"label": {
 		"username": "アカウント名",
-		"password" : "パスワード"
+		"password": "パスワード"
+	},
+	"text": {
+		"submit": "確認"
 	}
 }

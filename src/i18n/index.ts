@@ -78,6 +78,4 @@ I18n.use(languageDetector).use(initReactI18next).init({
 
 
 
-
-
 export default I18n;

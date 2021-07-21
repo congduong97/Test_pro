@@ -18,10 +18,10 @@
     "paths": {
       "@assets": ["assets/*"],
       "@router": ["router/*"],
-      "@store": ["store/*"],
+      "@store": ["store/index"],
       "@hooks": ["hooks/*"],
       "@components": ["components/index"],
-      "@services": ["services/*"],
+      "@services": ["services/index"],
       "@features": ["features/*"],
       "@I18n": ["i18n/index"],
       "@share/utils": ["share/utils"],

@@ -1,11 +1,12 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { TypeLanguage } from '../../../i18n';
 
 interface globalApp {
 	initLanguage: string
 }
 
 const initState: globalApp = {
-	initLanguage: "viVN"
+	initLanguage: TypeLanguage.VN
 }
 
 const globalApp = createSlice({

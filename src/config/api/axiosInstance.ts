@@ -1,6 +1,6 @@
-import axios, {AxiosResponse, AxiosInstance, AxiosRequestConfig} from 'axios';
+import axios, { AxiosResponse, AxiosInstance, AxiosRequestConfig } from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import {API_URL, TIME_OUT, ENV, API_LOCAL, API_DEVELOP, API_MOCK} from '@env';
+import { API_URL, TIME_OUT, ENV, API_LOCAL, API_DEVELOP, API_MOCK } from '@env';
 
 let BASE_URL: string;
 switch (ENV) {
@@ -67,7 +67,7 @@ class Http {
     http.interceptors.response.use(
       response => response,
       error => {
-        const {response} = error;
+        const { response } = error;
         return this.handleError(response);
       },
     );
@@ -113,7 +113,7 @@ class Http {
   }
 
   private handleError(error: any) {
-    const {status} = error;
+    const { status } = error;
     switch (status) {
       case StatusCode.InternalServerError: {
         // Handle InternalServerError
