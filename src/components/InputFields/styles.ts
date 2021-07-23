@@ -1,49 +1,50 @@
 import { StyleSheet } from 'react-native';
 import { shadows } from '@share/themes';
+import { scale } from '@share/utils';
 
 export default StyleSheet.create({
   container: {
     width: '100%',
-    marginVertical: 15,
+    marginVertical: scale(15),
   },
   label: {
-    fontSize: 18,
+    fontSize: scale(18),
     color: 'black',
     fontWeight: '600',
   },
   viewInput: {
     width: '100%',
     backgroundColor: '#fff',
-    paddingHorizontal: 20,
-    borderRadius: 8,
+    paddingHorizontal: scale(20),
+    borderRadius: scale(8),
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
-    marginTop: 10,
+    marginTop: scale(10),
     // height: 50,
-    paddingVertical: 15,
+    paddingVertical: scale(5),
     ...shadows[6],
   },
   input: {
     flex: 1,
-    fontSize: 16,
+    fontSize: scale(16),
     lineHeight: 0,
     color: 'black',
     height: '100%',
   },
   wrapIcon: {
     backgroundColor: '#f9f9f9',
-    height: 30,
+    height: scale(30),
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    borderRadius: 15,
-    width: 30,
+    borderRadius: scale(15),
+    width: scale(30),
   },
   textError: {
     color: 'red',
-    fontSize: 14,
-    marginTop: 10,
+    fontSize: scale(14),
+    marginTop: scale(10),
     fontWeight: '500',
   },
 });
