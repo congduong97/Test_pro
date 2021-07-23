@@ -6,6 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "cd android && ./gradlew clean && cd .. && react-native start",
+    "start:dev": "react-native start",
     "test": "jest",
     "lint": "eslint .",
     "clean": "cd android && ./gradlew clean && cd .."
