@@ -35,6 +35,7 @@
 		26A9D0C82BF94B4BA0C8F4F0 /* newBagde.svg in Resources */ = {isa = PBXBuildFile; fileRef = FC8C7170ECDE4E869FD772ED /* newBagde.svg */; };
 		2AA571DC23064497817F59CC /* crown.png in Resources */ = {isa = PBXBuildFile; fileRef = 123F7CCD753746A5B6C50083 /* crown.png */; };
 		2AE2C5BDA0754946AB98C58E /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39E51835334D48E99385E15C /* Roboto-BoldItalic.ttf */; };
+		2EEF7F599A4F8730B6C4FF6C /* libPods-stampsIdol-stampsIdolTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E73031EFA3F964461496AD4 /* libPods-stampsIdol-stampsIdolTests.a */; };
 		31FDE3BE5B4B4C609E45DE8F /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCAD6A7565C34117BCE68CAA /* OpenSans-Light.ttf */; };
 		3229E20052FF4B2A91E7B4A9 /* iconfinder_medal_award_trophy_premium_win_first_place_13_4640287.svg in Resources */ = {isa = PBXBuildFile; fileRef = DB8BF76BF27B4E1088A9E85C /* iconfinder_medal_award_trophy_premium_win_first_place_13_4640287.svg */; };
 		358D60314BD1432D9E7A15A7 /* bg_slot_9_1440x900_1396040832.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2CDAF2A467654DE5A90BCAD7 /* bg_slot_9_1440x900_1396040832.jpg */; };
@@ -49,8 +50,8 @@
 		55504F8A847A4312A493B564 /* cup_top_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33398F6E4D574F9394948F40 /* cup_top_3.jpg */; };
 		556DE5917EE943B08D663626 /* admin.png in Resources */ = {isa = PBXBuildFile; fileRef = 950EB09F31FA4C2EB53462C9 /* admin.png */; };
 		56E8377FE3144CA4AEB0DADA /* settings.svg in Resources */ = {isa = PBXBuildFile; fileRef = D6ADD14BF96043C095A3010F /* settings.svg */; };
+		57A9987CBBCC1B1D4A0DFE47 /* libPods-stampsIdol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D134B0D536A41250AD9B61 /* libPods-stampsIdol.a */; };
 		5C0BFCC8E1AB492F8AFF2C69 /* iconfinder_location_1814106.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5E84F0B4060446F3B04823A1 /* iconfinder_location_1814106.svg */; };
-		5FB12B2BB1A928116F28F5B2 /* libPods-stampsIdol-stampsIdolTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A05A7BF523C0A32AE8D7CD /* libPods-stampsIdol-stampsIdolTests.a */; };
 		62975ED6A3E24B85A046AF9E /* global.svg in Resources */ = {isa = PBXBuildFile; fileRef = EA462F0A400D400988B240E1 /* global.svg */; };
 		6504EBC472BC4842BDF6D00F /* exo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F2C8AB74FDFC412AAF490761 /* exo.jpeg */; };
 		6562FFBEEEFD482F8AB5C6A7 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA59CDC8AC564FA0B56F3C29 /* Roboto-ThinItalic.ttf */; };
@@ -73,7 +74,6 @@
 		835BE82FAF5244FC87348611 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 540AF8D30E504C9B892A99DE /* OpenSans-BoldItalic.ttf */; };
 		8481BFDCF41F4A219B5CB03A /* play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A65AA9ABE004D5B93301FDB /* play-button.png */; };
 		85A1673628E84E508C534AC8 /* sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 906C13E319514C4BB79CB9A0 /* sound.png */; };
-		8604DCF1F1865D1E08923409 /* libPods-stampsIdol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9BFED6D2818FF0966A0E01 /* libPods-stampsIdol.a */; };
 		87B6605F67AD4CF8823CA330 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 420D07F6FC30401A890DFBA5 /* OpenSans-ExtraBold.ttf */; };
 		89D295CBA0AE443AAB0131EF /* iconfinder_Settings_gear_setting_tools_392496.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8B7969D9AAE340DE9D51B564 /* iconfinder_Settings_gear_setting_tools_392496.svg */; };
 		8D293D2094C247B6B9C674C6 /* iconfinder_home_216242.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CD5E319F5EF4D5AB69DBF55 /* iconfinder_home_216242.png */; };
@@ -161,13 +161,13 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = stampsIdol/main.m; sourceTree = "<group>"; };
 		1431D1A1B2DD482598AE94F2 /* bagdetop2.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = bagdetop2.png; path = ../src/assets/images/source/bagdetop2.png; sourceTree = "<group>"; };
 		1C2B0073C7CD472EB438CC8E /* anhmau1.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = anhmau1.jpg; path = ../src/assets/images/source/anhmau1.jpg; sourceTree = "<group>"; };
-		1CE9331927AEB81586D7F70E /* Pods-stampsIdol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stampsIdol.debug.xcconfig"; path = "Target Support Files/Pods-stampsIdol/Pods-stampsIdol.debug.xcconfig"; sourceTree = "<group>"; };
 		1FF42AC7C91448E2BA1E604A /* forgot.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = forgot.svg; path = ../src/assets/svg/source/forgot.svg; sourceTree = "<group>"; };
 		209FD83748DE423CB24D0169 /* iconfinder_statistic_465076.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = iconfinder_statistic_465076.svg; path = ../src/assets/svg/source/iconfinder_statistic_465076.svg; sourceTree = "<group>"; };
 		20E95B04A10C4A77BCF310D7 /* filter.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = filter.svg; path = ../src/assets/svg/source/filter.svg; sourceTree = "<group>"; };
 		217C2D1107E54800814A4A85 /* facebook.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = facebook.svg; path = ../src/assets/svg/source/facebook.svg; sourceTree = "<group>"; };
 		218E52BAD4B94085AE19B3D6 /* iconfinder_Arrow_Left_4781857.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = iconfinder_Arrow_Left_4781857.svg; path = ../src/assets/svg/source/iconfinder_Arrow_Left_4781857.svg; sourceTree = "<group>"; };
 		23A5DE2970FE4982A00416DD /* search.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = search.svg; path = ../src/assets/svg/source/search.svg; sourceTree = "<group>"; };
+		24EF880B17BE2C36B42E5DEA /* Pods-stampsIdol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stampsIdol.debug.xcconfig"; path = "Target Support Files/Pods-stampsIdol/Pods-stampsIdol.debug.xcconfig"; sourceTree = "<group>"; };
 		2520322704134E88BFA12A45 /* iconfinder_list_menu_line_6138588.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = iconfinder_list_menu_line_6138588.svg; path = ../src/assets/svg/source/iconfinder_list_menu_line_6138588.svg; sourceTree = "<group>"; };
 		26AA29E320BC4F7599378113 /* checkSuccess.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = checkSuccess.svg; path = ../src/assets/svg/source/checkSuccess.svg; sourceTree = "<group>"; };
 		2B1323FEA1EC43E19D89B5B5 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-LightItalic.ttf"; path = "../src/assets/fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
@@ -187,13 +187,14 @@
 		45D04BEADAB54A5FB5FB3D9C /* twitter.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = twitter.png; path = ../src/assets/images/source/twitter.png; sourceTree = "<group>"; };
 		4BA98F6AF631486B94716ACD /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../src/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
 		4D2AC2E87930482EB5C4AFA6 /* iconfinder_ic_menu_5760380.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = iconfinder_ic_menu_5760380.svg; path = ../src/assets/svg/source/iconfinder_ic_menu_5760380.svg; sourceTree = "<group>"; };
+		4EDCC3CA2106B740B6BA9CF4 /* Pods-stampsIdol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stampsIdol.release.xcconfig"; path = "Target Support Files/Pods-stampsIdol/Pods-stampsIdol.release.xcconfig"; sourceTree = "<group>"; };
+		532118405DC7BD8AEDE2FB59 /* Pods-stampsIdol-stampsIdolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stampsIdol-stampsIdolTests.release.xcconfig"; path = "Target Support Files/Pods-stampsIdol-stampsIdolTests/Pods-stampsIdol-stampsIdolTests.release.xcconfig"; sourceTree = "<group>"; };
 		540AF8D30E504C9B892A99DE /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-BoldItalic.ttf"; path = "../src/assets/fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		54D4A5FAC2354E61AE385029 /* fireworks.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = fireworks.png; path = ../src/assets/images/source/fireworks.png; sourceTree = "<group>"; };
 		5690FB404B6D40ED8BE8C695 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Semibold.ttf"; path = "../src/assets/fonts/OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
 		59E502E836694F0CBC4E00D6 /* femenine.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = femenine.svg; path = ../src/assets/svg/source/femenine.svg; sourceTree = "<group>"; };
 		5A65AA9ABE004D5B93301FDB /* play-button.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "play-button.png"; path = "../src/assets/images/source/play-button.png"; sourceTree = "<group>"; };
 		5B80E2CFCF7F470D9431357B /* time-is-money.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "time-is-money.png"; path = "../src/assets/images/source/time-is-money.png"; sourceTree = "<group>"; };
-		5C9BFED6D2818FF0966A0E01 /* libPods-stampsIdol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stampsIdol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8A731726374EB081462AAF /* bagdetop3.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = bagdetop3.png; path = ../src/assets/images/source/bagdetop3.png; sourceTree = "<group>"; };
 		5DA06C239BC74DC1AAEC84A7 /* Idols-removebg-preview.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Idols-removebg-preview.png"; path = "../src/assets/images/source/Idols-removebg-preview.png"; sourceTree = "<group>"; };
 		5E84F0B4060446F3B04823A1 /* iconfinder_location_1814106.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = iconfinder_location_1814106.svg; path = ../src/assets/svg/source/iconfinder_location_1814106.svg; sourceTree = "<group>"; };
@@ -207,15 +208,17 @@
 		70316AD13C7E4EF09DD8C6CC /* cancel.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = cancel.svg; path = ../src/assets/svg/source/cancel.svg; sourceTree = "<group>"; };
 		719024BB356C45769969C43D /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../src/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		72AFAEAF52F24473A4996B45 /* youtube.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = youtube.png; path = ../src/assets/images/source/youtube.png; sourceTree = "<group>"; };
+		7ABCF0222BFB676C453484E3 /* Pods-stampsIdol-stampsIdolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stampsIdol-stampsIdolTests.debug.xcconfig"; path = "Target Support Files/Pods-stampsIdol-stampsIdolTests/Pods-stampsIdol-stampsIdolTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B2E5135CC8740C087891EB9 /* lifesaver.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = lifesaver.svg; path = ../src/assets/svg/source/lifesaver.svg; sourceTree = "<group>"; };
 		7BEAC2195A04401EADAB0AB9 /* kpop.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = kpop.png; path = ../src/assets/images/source/kpop.png; sourceTree = "<group>"; };
-		7D12BAB2995190EA04CEE494 /* Pods-stampsIdol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stampsIdol.release.xcconfig"; path = "Target Support Files/Pods-stampsIdol/Pods-stampsIdol.release.xcconfig"; sourceTree = "<group>"; };
 		80A30AC8E5AB41C3984DE7DD /* brightness.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = brightness.png; path = ../src/assets/images/source/brightness.png; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = stampsIdol/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		847B4E160B3743EEA559DAEC /* UNIQ_ZFLG.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = UNIQ_ZFLG.jpg; path = ../src/assets/images/source/UNIQ_ZFLG.jpg; sourceTree = "<group>"; };
 		8A5ED4192E6842938D815D72 /* categoryBagde.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = categoryBagde.svg; path = ../src/assets/svg/source/categoryBagde.svg; sourceTree = "<group>"; };
 		8B7969D9AAE340DE9D51B564 /* iconfinder_Settings_gear_setting_tools_392496.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = iconfinder_Settings_gear_setting_tools_392496.svg; path = ../src/assets/svg/source/iconfinder_Settings_gear_setting_tools_392496.svg; sourceTree = "<group>"; };
+		8E73031EFA3F964461496AD4 /* libPods-stampsIdol-stampsIdolTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stampsIdol-stampsIdolTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		906C13E319514C4BB79CB9A0 /* sound.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = sound.png; path = ../src/assets/images/source/sound.png; sourceTree = "<group>"; };
+		90D134B0D536A41250AD9B61 /* libPods-stampsIdol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stampsIdol.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D39034A2F1480A95C73088 /* book.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = book.png; path = ../src/assets/images/source/book.png; sourceTree = "<group>"; };
 		950EB09F31FA4C2EB53462C9 /* admin.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = admin.png; path = ../src/assets/images/source/admin.png; sourceTree = "<group>"; };
 		95AD5A32EA6749F9BBEB0338 /* signal.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = signal.svg; path = ../src/assets/svg/source/signal.svg; sourceTree = "<group>"; };
@@ -226,7 +229,6 @@
 		A6751811F2C24B91A953BA38 /* compass-icons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "compass-icons.ttf"; path = "../src/assets/fonts/compass-icons.ttf"; sourceTree = "<group>"; };
 		A94C8A11B6F94992A1D4F945 /* man.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = man.svg; path = ../src/assets/svg/source/man.svg; sourceTree = "<group>"; };
 		AFCB26CD2BD24579B21FB370 /* mars.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = mars.svg; path = ../src/assets/svg/source/mars.svg; sourceTree = "<group>"; };
-		B1A05A7BF523C0A32AE8D7CD /* libPods-stampsIdol-stampsIdolTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stampsIdol-stampsIdolTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E6674FCEE84ECB8B7C224C /* ribbon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = ribbon.png; path = ../src/assets/images/source/ribbon.png; sourceTree = "<group>"; };
 		B2F8CF1C21814F9182AEC968 /* wifi.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = wifi.png; path = ../src/assets/images/source/wifi.png; sourceTree = "<group>"; };
 		B41A809B3FD04A5A85EA9365 /* iconfinder_icon-close-round_211651.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "iconfinder_icon-close-round_211651.svg"; path = "../src/assets/svg/source/iconfinder_icon-close-round_211651.svg"; sourceTree = "<group>"; };
@@ -244,7 +246,6 @@
 		CA3890B896CC4F488BCC6DAB /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../src/assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		CB3DAA3966E646749A57A64A /* instagram.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = instagram.png; path = ../src/assets/images/source/instagram.png; sourceTree = "<group>"; };
 		CCAD6A7565C34117BCE68CAA /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../src/assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
-		CDA3AED2E87AA905C0795A35 /* Pods-stampsIdol-stampsIdolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stampsIdol-stampsIdolTests.release.xcconfig"; path = "Target Support Files/Pods-stampsIdol-stampsIdolTests/Pods-stampsIdol-stampsIdolTests.release.xcconfig"; sourceTree = "<group>"; };
 		D2878F3F58634408820B0FE2 /* visibility.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = visibility.svg; path = ../src/assets/svg/source/visibility.svg; sourceTree = "<group>"; };
 		D2B11F663BEB4318867ABAF2 /* google.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = google.svg; path = ../src/assets/svg/source/google.svg; sourceTree = "<group>"; };
 		D2B6A50381344E8B9C85E476 /* logout.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = logout.png; path = ../src/assets/images/source/logout.png; sourceTree = "<group>"; };
@@ -255,7 +256,6 @@
 		DD86C467DA7B4781BA0AEEB4 /* cancel.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = cancel.png; path = ../src/assets/images/source/cancel.png; sourceTree = "<group>"; };
 		DF39FA8A03414833885E381A /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../src/assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 		DFDBD20074AD4818B3E0050B /* 2b1528d19a27f20d75194d40ccf6c3f3.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = 2b1528d19a27f20d75194d40ccf6c3f3.png; path = ../src/assets/images/source/2b1528d19a27f20d75194d40ccf6c3f3.png; sourceTree = "<group>"; };
-		E031DBB8AC5BE351E4984ABE /* Pods-stampsIdol-stampsIdolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stampsIdol-stampsIdolTests.debug.xcconfig"; path = "Target Support Files/Pods-stampsIdol-stampsIdolTests/Pods-stampsIdol-stampsIdolTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E603243435D840388CCE2899 /* 20181227164436-6bda.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "20181227164436-6bda.jpg"; path = "../src/assets/images/source/20181227164436-6bda.jpg"; sourceTree = "<group>"; };
 		E865FC3AFA654905A7325F1C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		EA462F0A400D400988B240E1 /* global.svg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = global.svg; path = ../src/assets/svg/source/global.svg; sourceTree = "<group>"; };
@@ -277,7 +277,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FB12B2BB1A928116F28F5B2 /* libPods-stampsIdol-stampsIdolTests.a in Frameworks */,
+				2EEF7F599A4F8730B6C4FF6C /* libPods-stampsIdol-stampsIdolTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +285,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8604DCF1F1865D1E08923409 /* libPods-stampsIdol.a in Frameworks */,
+				57A9987CBBCC1B1D4A0DFE47 /* libPods-stampsIdol.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +320,18 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = stampsIdol;
+			sourceTree = "<group>";
+		};
+		18CCABA2386A6E5C1A3AC157 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24EF880B17BE2C36B42E5DEA /* Pods-stampsIdol.debug.xcconfig */,
+				4EDCC3CA2106B740B6BA9CF4 /* Pods-stampsIdol.release.xcconfig */,
+				7ABCF0222BFB676C453484E3 /* Pods-stampsIdol-stampsIdolTests.debug.xcconfig */,
+				532118405DC7BD8AEDE2FB59 /* Pods-stampsIdol-stampsIdolTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		248B661A19784697835708FB /* Resources */ = {
@@ -447,22 +459,10 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5C9BFED6D2818FF0966A0E01 /* libPods-stampsIdol.a */,
-				B1A05A7BF523C0A32AE8D7CD /* libPods-stampsIdol-stampsIdolTests.a */,
+				90D134B0D536A41250AD9B61 /* libPods-stampsIdol.a */,
+				8E73031EFA3F964461496AD4 /* libPods-stampsIdol-stampsIdolTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		52F8C72B6874D906FB64C8DD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1CE9331927AEB81586D7F70E /* Pods-stampsIdol.debug.xcconfig */,
-				7D12BAB2995190EA04CEE494 /* Pods-stampsIdol.release.xcconfig */,
-				E031DBB8AC5BE351E4984ABE /* Pods-stampsIdol-stampsIdolTests.debug.xcconfig */,
-				CDA3AED2E87AA905C0795A35 /* Pods-stampsIdol-stampsIdolTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -481,7 +481,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				248B661A19784697835708FB /* Resources */,
-				52F8C72B6874D906FB64C8DD /* Pods */,
+				18CCABA2386A6E5C1A3AC157 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -504,12 +504,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "stampsIdolTests" */;
 			buildPhases = (
-				BF827FB1723D3604921E0F1E /* [CP] Check Pods Manifest.lock */,
+				FDF18EBA052C511C044E1BAE /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				B44B073C63156B62109DCAE7 /* [CP] Embed Pods Frameworks */,
-				72340D770F440CE8DC2D7B15 /* [CP] Copy Pods Resources */,
+				D88697D7C3BE11E9D26CBD66 /* [CP] Embed Pods Frameworks */,
+				EA9961534ADF68647D772601 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -525,14 +525,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "stampsIdol" */;
 			buildPhases = (
-				7C0034281DFE89753D2A55D9 /* [CP] Check Pods Manifest.lock */,
+				96EF2BF582A1E22EE36C6DA2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				287EAC2C07A03D4570297DB7 /* [CP] Embed Pods Frameworks */,
-				10E9CE76B5E97133F1839D19 /* [CP] Copy Pods Resources */,
+				472465A849D90E0D48F2A0B8 /* [CP] Embed Pods Frameworks */,
+				097FF97FF5754F1EC7C484F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -726,7 +726,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		10E9CE76B5E97133F1839D19 /* [CP] Copy Pods Resources */ = {
+		097FF97FF5754F1EC7C484F7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -743,7 +743,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stampsIdol/Pods-stampsIdol-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		287EAC2C07A03D4570297DB7 /* [CP] Embed Pods Frameworks */ = {
+		472465A849D90E0D48F2A0B8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -760,24 +760,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stampsIdol/Pods-stampsIdol-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		72340D770F440CE8DC2D7B15 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-stampsIdol-stampsIdolTests/Pods-stampsIdol-stampsIdolTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-stampsIdol-stampsIdolTests/Pods-stampsIdol-stampsIdolTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stampsIdol-stampsIdolTests/Pods-stampsIdol-stampsIdolTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7C0034281DFE89753D2A55D9 /* [CP] Check Pods Manifest.lock */ = {
+		96EF2BF582A1E22EE36C6DA2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -799,7 +782,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B44B073C63156B62109DCAE7 /* [CP] Embed Pods Frameworks */ = {
+		D88697D7C3BE11E9D26CBD66 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -816,26 +799,21 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stampsIdol-stampsIdolTests/Pods-stampsIdol-stampsIdolTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BF827FB1723D3604921E0F1E /* [CP] Check Pods Manifest.lock */ = {
+		EA9961534ADF68647D772601 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-stampsIdol-stampsIdolTests/Pods-stampsIdol-stampsIdolTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-stampsIdol-stampsIdolTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-stampsIdol-stampsIdolTests/Pods-stampsIdol-stampsIdolTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stampsIdol-stampsIdolTests/Pods-stampsIdol-stampsIdolTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -855,6 +833,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF18EBA052C511C044E1BAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-stampsIdol-stampsIdolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -890,7 +890,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E031DBB8AC5BE351E4984ABE /* Pods-stampsIdol-stampsIdolTests.debug.xcconfig */;
+			baseConfigurationReference = 7ABCF0222BFB676C453484E3 /* Pods-stampsIdol-stampsIdolTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -917,7 +917,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDA3AED2E87AA905C0795A35 /* Pods-stampsIdol-stampsIdolTests.release.xcconfig */;
+			baseConfigurationReference = 532118405DC7BD8AEDE2FB59 /* Pods-stampsIdol-stampsIdolTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -941,7 +941,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CE9331927AEB81586D7F70E /* Pods-stampsIdol.debug.xcconfig */;
+			baseConfigurationReference = 24EF880B17BE2C36B42E5DEA /* Pods-stampsIdol.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -967,7 +967,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D12BAB2995190EA04CEE494 /* Pods-stampsIdol.release.xcconfig */;
+			baseConfigurationReference = 4EDCC3CA2106B740B6BA9CF4 /* Pods-stampsIdol.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

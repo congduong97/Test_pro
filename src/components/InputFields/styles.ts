@@ -21,9 +21,7 @@ export default StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     marginTop: scale(10),
-    // height: 50,
-    paddingVertical: scale(5),
-    ...shadows[6],
+    ...shadows[0],
   },
   input: {
     flex: 1,
@@ -31,6 +29,7 @@ export default StyleSheet.create({
     lineHeight: 0,
     color: 'black',
     height: '100%',
+    paddingVertical: scale(15),
   },
   wrapIcon: {
     backgroundColor: '#f9f9f9',

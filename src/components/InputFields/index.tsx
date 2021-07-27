@@ -45,6 +45,11 @@ export const InputFields = forwardRef((props: IInputFields, ref?: any) => {
     rules: props.rules,
     defaultValue: props.defaultValue,
   });
+  const handleActionRight = () => {
+    if (typeof props.actionRight === 'function') {
+      props.actionRight();
+    }
+  };
   return (
     <View style={container}>
       {props.label ? <TextLang tx={props.label} style={label} /> : null}
@@ -57,7 +62,7 @@ export const InputFields = forwardRef((props: IInputFields, ref?: any) => {
           {...props}
         />
         {props.iconRight ? (
-          <TouchableOpacity style={styles.wrapIcon}>
+          <TouchableOpacity onPress={handleActionRight} style={styles.wrapIcon}>
             {props.iconRight}
           </TouchableOpacity>
         ) : null}

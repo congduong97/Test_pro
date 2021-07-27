@@ -16,7 +16,7 @@
     "baseUrl": "src",
     "skipLibCheck": false,
     "paths": {
-      "@assets": ["assets/*"],
+      "@assets/*": ["assets/*"],
       "@router": ["router/*"],
       "@store": ["store/index"],
       "@hooks": ["hooks/*"],
